@@ -20,7 +20,30 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.encompass {
+  margin-left: 10px;
+  align-items: center;
+}
+
+.text {
+  margin-top: 8px;
+}
+
 
 .icon {
   color: royalblue;
@@ -33,6 +56,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 10px;
+  flex-shrink: 0;
 }
 
 .close-button {
